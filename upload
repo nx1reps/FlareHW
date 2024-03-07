@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Upload</title>
+    <link rel="stylesheet" href="u.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Homework</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Upload Homework</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Upload Your Homework</h2>
+            <form id="uploadForm">
+                <input type="file" id="fileInput" accept=".pdf,.doc,.docx">
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="up.js"></script>
+</body>
+</html>
